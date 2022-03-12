@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+   
+   <style type="text/css">
+        .exemplo-cor{
+            background: #c8c8c8;
+            border: solid 1px #ddd;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .dark{
+            background: #000;
+            color: #fff;
+            font-size: 25px;
+            text-align: right;
+        }
+        .sombreado{
+            background: rgb(230, 228, 228);
+            color: rgb(92, 90, 90);
+        }
+
+    </style>
+
+    <title>Aula 26/01/2022</title>
+</head>
+<body>
+    <div style="height: 30px; " class="container-fluid">
+        <div class="row">
+            <div class="col-2 dark">
+                Album
+            </div>
+            <div class="col-9 dark">
+                Menu
+            </div>
+            <div class="col-1 dark">
+
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col text-center">
+                <br><br><br>
+                <h1><b>Album Example</h1></b>
+                <br>
+                <font size = "4">
+                    Something short and leading about the colletion below - it´s contents, the<br>
+                    creater, etc. Make it short and sweet, but too not short so folks dont´t simply<br>
+                    skip over it entirely.
+                </font>
+                <br><br>
+                <button type="button" class="btn btn-primary">Main call to Action</button>
+                <button type="button" class="btn btn-secondary">Secondary action</button>
+                <br><br>
+            </div>
+        </div>
+        <div class="row sombreado justify-content-evenly" style="margin-top: 50px; height: 3000px">
+            <div class="col-2">
+                <figure class="figure">
+                    <br><br>
+                    <img style="width: 250px;" class="rounded mx-auto d-block" src="imagem.jpg" alt="imagem">
+                    <figcaption class="figure-caption"> Texto </figcaption>
+                </figure>
+            </div>
+            <div class="col-2">
+                <figure class="figure">
+                    <br><br>
+                    <img style="width: 250px;" class="rounded mx-auto d-block" src="imagem.jpg" alt="imagem">
+                    <figcaption class="figure-caption"> Texto </figcaption>
+                </figure>
+            </div>
+            <div class="col-2">
+                <figure class="figure">
+                    <br><br>
+                    <img style="width: 250px;" class="rounded mx-auto d-block" src="imagem.jpg" alt="imagem">
+                    <figcaption class="figure-caption"> Texto </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

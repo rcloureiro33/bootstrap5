@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <title>Formulários</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+        <!-- FORMULÁRIO COM LABEL -->
+            <div class="col-4">
+                <form>
+                    <div class="mt-3 mb-3">
+                        <label class="form-label">Nome</label>
+                        <input value="Roberto Loureiro" disabled class="form-control" type="text" name="nome">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">E-mail</label>
+                        <input value="roberto.cloureiro@gmail.com" readonly class="form-control" type="email" name="e-mail">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Mensagem</label>
+                        <textarea class="form-control" name="msg"></textarea>
+                    </div>
+                </form>
+            </div>
+        <!-- FORMULÁRIO COM LABEL -->
+        <br>
+            <div class="col-6">
+                <form>
+                    <div class="mb-3">
+                        <input class="form-control" placeholder="Nome" type="text" name="nome">
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-control" placeholder="E-mail" type="e-mail" name="e-mail">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" placeholder="Mensagem" name="msg"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>    
+</body>
+</html>
